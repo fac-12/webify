@@ -52,6 +52,8 @@ body {
 .about {
   background-color: rgb(255, 224, 187);
   height: 100vh;
+  padding-left: 3%;
+  padding-right: 3%;
 
 }
 
@@ -61,6 +63,9 @@ body {
     text-align: center;
 }
 
+.about__info {
+  font-size: 2rem;
+}
 /*team*/
 .team {
   background-color: rgb(255, 200, 187);
@@ -89,6 +94,11 @@ body {
   width: 17rem;
 }
 
+.team__member__pic {
+  max-width: 10rem;
+  border-radius: 50%;
+
+}
 /*contact*/
 
 #contactSection {
