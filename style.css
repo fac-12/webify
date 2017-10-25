@@ -11,6 +11,9 @@ body {
   padding-top: 1%;
   padding-bottom: 1%;
   background-color: rgb(241, 209, 70);
+  position:fixed;
+  width: 100%;
+
 }
 
 .navigation__list {
@@ -23,7 +26,15 @@ body {
   font-size: 2rem;
   padding-left: 3%;
   padding-right: 3%;
+
 }
+
+.navigation__list__tags a {
+  text-decoration: none;
+  color: black;
+
+}
+
 
 .navigation__list__tags:hover {
   color: white;
@@ -32,6 +43,7 @@ body {
 .header {
   background-color: rgb(233, 254, 253);
   height: 100vh;
+  padding-top: 100px;
 
 }
 
@@ -101,9 +113,58 @@ body {
 }
 /*contact*/
 
-#contactSection {
+.contactSection {
   background-color: rgb(255, 200, 110);
   height: 100vh;
+}
+
+.contactSection__heading {
+  text-align: center;
+}
+
+.contactSection__flex{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.contactSection__form{
+  width: 50%;
+
+
+}
+.contactSection__form__input,
+.contactSection__form__textArea,
+.contactSection__form__label{
+  display: block;
+  margin: 0 auto;
+
+}
+.contactSection__form__input,.contactSection__form__textArea
+{
+  width: 16.25rem;
+height: 1.5rem;
+border-radius: 3px;
+}
+
+.contactSection__form__input:last-child {
+  color: white;
+  background-color: black;
+  border-color: black;
+
+}
+
+.contactSection__form__textArea{
+  height:3rem;
+}
+.contactSection__form__label{
+  margin-top: 15px;
+}
+.contactSection__address{
+  width: 45%;
+  text-align: center;
+  margin-top: 50px;
+  border-left: 2px solid black;
 }
 
 .contactSection__heading {
