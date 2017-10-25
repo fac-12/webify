@@ -1,6 +1,9 @@
 
 body {
   margin: 0;
+  font-family: sans-serif;
+  font-size: 1.5;
+
 }
 
 /*navigation*/
@@ -34,13 +37,13 @@ body {
 
 .heading__title {
   margin-top:0 ;
-  padding: 20px;
+  padding-top: 25%;
   text-align: center;
 
 }
 
 .heading__slogan {
-
+  text-align: center;
 }
 
 /*about*/
@@ -49,20 +52,43 @@ body {
 .about {
   background-color: rgb(255, 224, 187);
   height: 100vh;
+
 }
 
 .about__title {
     margin-top:0 ;
+    padding-top: 3%;
+    text-align: center;
 }
 
+/*team*/
 .team {
   background-color: rgb(255, 200, 187);
   height: 100vh;
+  padding-left: 3%;
+  padding-right: 3%;
+
 }
 
 .team__heading {
-    margin-top:0 ;
+    margin-top:0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+
 }
+
+.team--box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.team__member {
+  padding: 2%;
+  width: 20%;
+}
+
+/*contact*/
 
 #contactSection {
   background-color: rgb(255, 200, 110);
@@ -71,4 +97,14 @@ body {
 
 .contactSection__heading {
   margin-top:0;
+}
+
+/*footer*/
+
+.footer {
+  background-color: rgb(233, 254, 253);
+  text-align: center;
+  padding: 2%;
+
+
 }
