@@ -1,0 +1,74 @@
+
+body {
+  margin: 0;
+}
+
+/*navigation*/
+.navigation {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: rgb(241, 209, 70);
+}
+
+.navigation__list {
+  display:flex;
+  justify-content: flex-end;
+}
+
+.navigation__list__tags {
+  list-style: none;
+  font-size: 2rem;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.navigation__list__tags:hover {
+  color: white;
+}
+
+.header {
+  background-color: rgb(233, 254, 253);
+  height: 100vh;
+
+}
+
+.heading__title {
+  margin-top:0 ;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.heading__slogan {
+
+}
+
+/*about*/
+
+
+.about {
+  background-color: rgb(255, 224, 187);
+  height: 100vh;
+}
+
+.about__title {
+    margin-top:0 ;
+}
+
+.team {
+  background-color: rgb(255, 200, 187);
+  height: 100vh;
+}
+
+.team__heading {
+    margin-top:0 ;
+}
+
+#contactSection {
+  background-color: rgb(255, 200, 110);
+  height: 100vh;
+}
+
+.contactSection__heading {
+  margin-top:0;
+}
