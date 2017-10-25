@@ -9,10 +9,10 @@
 <body>
   <nav role="navigation" class="navigation">
     <ul class="navigation__list">
-      <li class="navigation__list__tags"> Home </li>
-      <li class="navigation__list__tags"> About </li>
-      <li class="navigation__list__tags"> Team </li>
-      <li class="navigation__list__tags"> Contact </li>
+      <li class="navigation__list__tags"><a href="#home"> Home </a></li>
+      <li class="navigation__list__tags"><a href="#about"> About </a></li>
+      <li class="navigation__list__tags"><a href="#team"> Team </a></li>
+      <li class="navigation__list__tags"><a href="#contact"> Contact </a></li>
     </ul>
   </nav>
   <header class="header" id="home">
@@ -46,14 +46,15 @@
       <p class="team__member__info"></p>
     </article>
   </section>
-  <section id="contactSection">
+  <section class="contactSection" id="contactSection">
     <h2 class="contactSection__heading"> Contact </h2>
+    <section class="contactSection__flex">
     <form class="contactSection__form">
       <label class="contactSection__form__label"for="personName">  Name </label>
       <input class="contactSection__form__input" id="personName" type="text"/>
       <label class="contactSection__form__label" for="personEmail">  Email </label>
       <input class="contactSection__form__input" id="personEmail" type="email"/>
-      <label class="contactSection__form__label" for="personNumber">  Name </label>
+      <label class="contactSection__form__label" for="personNumber">  Number </label>
       <input class="contactSection__form__input" id="personNumber" type="number"/>
       <label class="contactSection__form__label" for="personMessage"> Message </label>
       <textarea class="contactSection__form__textArea"  id="personMessage"> </textarea>
@@ -61,8 +62,14 @@
       <input class="contactSection__form__input" id="submitBtn" type="submit" value="Submit">
     </form>
     <address class="contactSection__address">
-      <p class="contactSection__address__info"> </p>
+      <p class="contactSection__address__info"> Webify </p>
+        <p class="contactSection__address__info"> 14 Palmers Rd </p>
+          <p class="contactSection__address__info"> London </p>
+            <p class="contactSection__address__info"> E2 0SY </p>
+              <p class="contactSection__address__info"> 010101101 </p>
+                <a class="contactSection__address__info" href="mailto:info@webify.io"> info@webify.io </a>
     </address>
+  </section>
   </section>
   <footer class="footer" id="footerSection">
     <p class = "footer__info"> </p>
