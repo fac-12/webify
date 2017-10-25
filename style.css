@@ -81,11 +81,12 @@ body {
 .team--box {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .team__member {
-  padding: 2%;
-  width: 20%;
+  /*padding: 1%;*/
+  width: 17rem;
 }
 
 /*contact*/
