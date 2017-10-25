@@ -7,7 +7,7 @@
   <title> Webify </title>
 </head>
 <body>
-  <nav class="navigation">
+  <nav role="navigation" class="navigation">
     <ul class="navigation__list">
       <li class="navigation__list__tags"> Home </li>
       <li class="navigation__list__tags"> About </li>
@@ -55,8 +55,8 @@
       <input class="contactSection__form__input" id="personEmail" type="email"/>
       <label class="contactSection__form__label" for="personNumber">  Name </label>
       <input class="contactSection__form__input" id="personNumber" type="number"/>
-      <label class="contactSection__form__label" id="personMessage"> Message </label>
-      <textarea class="contactSection__form__textArea"> </textarea>
+      <label class="contactSection__form__label" for="personMessage"> Message </label>
+      <textarea class="contactSection__form__textArea"  id="personMessage"> </textarea>
       <label class="contactSection__form__label" for="submitBtn"></label>
       <input class="contactSection__form__input" id="submitBtn" type="submit" value="Submit">
     </form>
