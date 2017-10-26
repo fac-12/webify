@@ -25,7 +25,7 @@ body {
   color: white;
   padding: 0.75rem 0.40rem 0.75rem 0.40rem;
   float: right;
-  
+
 }
 .navigation__list__tags a:hover{
     background-color: rgb(14, 14, 14);
@@ -176,17 +176,18 @@ font-weight: bold;
   margin: 0 auto;
 
 }
-.contactSection__form__input,.contactSection__form__textArea
-{
+.contactSection__form__input,.contactSection__form__textArea,
+.contactSection__form__button{
   width: 16.25rem;
 height: 1.5rem;
 border-radius: 3px;
 }
 
-.contactSection__form__input:last-child {
+.contactSection__form__button {
   color: white;
   background-color: rgb(61, 60, 58);
   border-color: rgb(61, 60, 58);
+  margin-top:2%;
 
 }
 
