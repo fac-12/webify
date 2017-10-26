@@ -8,39 +8,42 @@ body {
 
 /*navigation*/
 .navigation {
-  background-color: rgb(241, 209, 70);
+  background-color: rgb(37, 112, 158);
   position:fixed;
   width: 100%;
+
 }
 .navigation__list{
   padding: 0;
   margin: 0;
   list-style: none;
+
 }
 .navigation__list__tags a {
   font-size: 1.4rem;
   text-decoration: none;
-  color: black;
+  color: white;
   padding: 0.75rem 0.40rem 0.75rem 0.40rem;
   float: right;
+
 }
 .navigation__list__tags a:hover{
-    background-color: black;
-    color: rgb(241, 209, 70);
+    background-color: rgb(14, 14, 14);
+    color: white;
 }
 .navigation__list__tags a:active {
   color: white;
 }
 
 .header {
-  background-color: rgb(51, 47, 89);
-  background-image: url("./assets/bricksgradient.jpg");
+  /*background-color: rgb(51, 47, 89);*/
+  background-image: url("./assets/origami.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
 
   color: white;
-  text-shadow: 3px 3px 3px rgb(6, 6, 6);
+  text-shadow: 3px 2px 3px rgb(6, 6, 6);
 
 }
 
@@ -68,6 +71,7 @@ width: 70%;
 text-align: center;
 font-size: 1.5rem;
 font-family: "Josefin Slab", Georgia, serif;
+font-weight: bold;
 
 }
 
@@ -75,7 +79,7 @@ font-family: "Josefin Slab", Georgia, serif;
 
 
 .about {
-  background-color: rgb(255, 224, 187);
+  background-color: white;
   padding-left: 3%;
   padding-right: 3%;
   text-align: center;
@@ -99,7 +103,7 @@ font-family: "Josefin Slab", Georgia, serif;
   justify-content: space-around;
   flex-wrap: wrap;
   flex-direction: column;
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
 }
 .about__pic{
   max-width: 7rem;
@@ -111,7 +115,7 @@ font-family: "Josefin Slab", Georgia, serif;
 
 /*team*/
 .team {
-  background-color: rgb(255, 200, 187);
+  background-color: rgb(201, 252, 246);
   padding: 3%;
 
 }
@@ -146,7 +150,7 @@ font-family: "Josefin Slab", Georgia, serif;
 /*contact*/
 
 .contactSection {
-  background-color: rgb(255, 200, 110);
+  background-color: white);
   padding-bottom: 10%;
 }
 
@@ -181,8 +185,8 @@ border-radius: 3px;
 
 .contactSection__form__button {
   color: white;
-  background-color: black;
-  border-color: black;
+  background-color: rgb(61, 60, 58);
+  border-color: rgb(61, 60, 58);
   margin-top:2%;
 
 }
@@ -207,7 +211,7 @@ border-radius: 3px;
 /*footer*/
 
 .footer {
-  background-color: rgb(233, 254, 253);
+  background-color: rgb(241, 208, 69);
   text-align: center;
   padding: 2%;
 
@@ -219,12 +223,6 @@ border-radius: 3px;
     font-size: 2rem;
     padding-left: 0.50rem;
     padding-right: 1.2rem;
-  }
-  .about{
-    height: 100vh;
-  }
-  .about__info{
-    padding-top: 1%;
   }
   .about__iconContainer{
     flex-direction: row;
@@ -240,15 +238,14 @@ border-radius: 3px;
   }
 
   .contactSection{
-    height: 100vh;
     padding-bottom: 0%;
   }
   .contactSection__heading{
     padding-top: 2%;
   }
   .contactSection__flex{
-    padding-top: 10%;
     flex-direction: row;
+    padding-bottom: 4%;
   }
   .contactSection__form{
     width: 50%;
@@ -257,15 +254,11 @@ border-radius: 3px;
     width: 50%;
     text-align: center;
     margin-top: 2%;
-    border-left: 2px solid black;
+    border-left: 2px solid rgb(61, 60, 58);
     font-size: 1.3rem;
-
-
 }
-
-@media screen and (min-height:1000px) {
-  .team {
-    height: 100vh;
-
+@media screen and (max-width: 800px){
+  .contactSection__address{
+    border-left: 0;
   }
 }
