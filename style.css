@@ -90,7 +90,23 @@ font-size: 3rem;
 
 .about__info {
   font-size: 2rem;
+  text-align: center;
 }
+
+.about__iconContainer{
+  display:flex;
+
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+.about__pic{
+  max-width: 7rem;
+  max-height: 7rem;
+
+}
+
+
 /*team*/
 .team {
   background-color: rgb(255, 200, 187);
