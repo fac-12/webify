@@ -34,13 +34,13 @@ body {
 
 .header {
   background-color: rgb(51, 47, 89);
-  background-image: url("./assets/coloured-lights.png");
+  background-image: url("./assets/bricksgradient.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  padding-top: 100px;
+
   color: white;
-  text-shadow: 3px 3px 7px rgb(33, 32, 36);
+  text-shadow: 3px 3px 3px rgb(6, 6, 6);
 
 }
 
@@ -49,7 +49,6 @@ body {
   display: flex;
   justify-content: center;
   align-content: center;
-  /*align-items: center;*/
   flex-wrap:wrap;
 }
 
@@ -57,17 +56,18 @@ body {
 
 .heading__title {
   margin:0 ;
-  /*padding-top: 25%;*/
   text-align: center;
   width: 70%;
-  font-size: 9rem;
+  font-size: 3rem;
+  font-family: "Helvetica Neue", Helvetica, Arial;
 
 }
 
 .heading__slogan {
 width: 70%;
 text-align: center;
-font-size: 3rem;
+font-size: 1.5rem;
+font-family: "Josefin Slab", Georgia, serif;
 
 }
 
@@ -220,5 +220,14 @@ border-radius: 3px;
   }
   .about__iconContainer{
     flex-direction: row;
+  }
+
+  .heading__title {
+    font-size: 9rem;
+  }
+
+  .heading__slogan {
+    font-size: 2rem;
+    padding-top: 5%;
   }
 }
