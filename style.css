@@ -112,11 +112,11 @@ font-family: "Josefin Slab", Georgia, serif;
 /*team*/
 .team {
   background-color: rgb(255, 200, 187);
-  height: 100vh;
-  padding-left: 3%;
-  padding-right: 3%;
+  padding: 3%;
 
 }
+
+
 
 .team__heading {
     margin-top:0;
@@ -140,6 +140,7 @@ font-family: "Josefin Slab", Georgia, serif;
 .team__member__pic {
   max-width: 10rem;
   border-radius: 50%;
+  margin-left: 20%;
 
 }
 /*contact*/
@@ -236,6 +237,7 @@ border-radius: 3px;
     font-size: 2rem;
     padding-top: 5%;
   }
+
   .contactSection{
     height: 100vh;
     padding-bottom: 0%;
@@ -256,5 +258,13 @@ border-radius: 3px;
     margin-top: 2%;
     border-left: 2px solid black;
     font-size: 1.3rem;
+
+
+}
+
+@media screen and (min-height:1000px) {
+  .team {
+    height: 100vh;
+
   }
 }
