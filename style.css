@@ -76,16 +76,16 @@ font-size: 3rem;
 
 .about {
   background-color: rgb(255, 224, 187);
-  height: 100vh;
   padding-left: 3%;
   padding-right: 3%;
+  text-align: center;
 
 }
 
 .about__title {
     margin-top:0 ;
     padding-top: 3%;
-    text-align: center;
+
 }
 
 .about__info {
@@ -98,11 +98,13 @@ font-size: 3rem;
 
   justify-content: space-around;
   flex-wrap: wrap;
-
+  flex-direction: column;
+  padding-bottom: 1rem;
 }
 .about__pic{
   max-width: 7rem;
   max-height: 7rem;
+  margin: 0 auto;
 
 }
 
@@ -215,5 +217,8 @@ border-radius: 3px;
     font-size: 2rem;
     padding-left: 0.50rem;
     padding-right: 1.2rem;
+  }
+  .about__iconContainer{
+    flex-direction: row;
   }
 }
