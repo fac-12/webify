@@ -9,6 +9,7 @@
 </head>
 <body>
   <nav role="navigation" class="navigation">
+    <h3 style="display:none">Navigation</h3>
     <ul class="navigation__list">
       <li class="navigation__list__tags"><a href="#contactSection"> Contact </a></li>
       <li class="navigation__list__tags"><a href="#teamSection"> Team </a></li>
@@ -37,11 +38,11 @@
       <h3>Inclusive<br></h3>
       We have the needs of others at the heart of our projects. Our simple yet elegant solutions are clear to navigate and understand.<br><br>
       </p>
-     <section class= "about__iconContainer">
+     <div class= "about__iconContainer">
       <img class="about__pic" aria-hidden="true" alt="monitor icon" src="assets/monitor.png">
       <img class="about__pic" aria-hidden="true" alt="device pictures" src="assets/responsive.png">
       <img class="about__pic" aria-hidden="true" alt="padlock picture" src="assets/unlocked.png">
-    </section>
+    </div>
   </section>
 
 
@@ -50,7 +51,7 @@
   <section class="team" id="teamSection">
     <h2 class="team__heading"> Meet Our Team </h2>
 
-    <section class = "team--box">
+    <div class = "team--box">
     <article class="team__member">
       <img class="team__member__pic" alt="Lexi" src="teamimages/lex_edit.jpg">
       <h4 class="team__member__heading">Lexi</h4>
@@ -71,14 +72,14 @@
       <h4 class="team__member__heading">Caroline</h4>
       <p class="team__member__info">Celery quandong swiss chard chicory earthnut pea potato. Salsify taro catsear garlic gram celery bitterleaf wattle seed collard greens nori. Grape wattle seed kombu beetroot horseradish carrot squash brussels sprout chard.</p>
     </article>
-</section>
+</div>
 
   </section>
   <section class="contactSection" id="contactSection">
     <h2 class="contactSection__heading"> Contact </h2>
-    <section class="contactSection__flex">
+    <div class="contactSection__flex">
     <form class="contactSection__form">
-      <label class="contactSection__form__label"for="personName">  Name </label>
+      <label class="contactSection__form__label" for="personName">  Name </label>
       <input class="contactSection__form__input" id="personName" type="text"/>
       <label class="contactSection__form__label" for="personEmail">  Email </label>
       <input class="contactSection__form__input" id="personEmail" type="email"/>
@@ -86,8 +87,10 @@
       <input class="contactSection__form__input" id="personNumber" type="number"/>
       <label class="contactSection__form__label" for="personMessage"> Message </label>
       <textarea class="contactSection__form__textArea"  id="personMessage"> </textarea>
-      <label class="contactSection__form__label" for="submitBtn"></label>
+      <!-- <label class="contactSection__form__label" for="submitBtn"></label>
       <input class="contactSection__form__input" id="submitBtn" type="submit" value="Submit">
+    -->
+       <button class="contactSection__form__button" id="submitBtn" type="submit">Submit</button>
     </form>
     <address class="contactSection__address">
       <p class="contactSection__address__info"> Webify </p>
@@ -97,7 +100,7 @@
               <p class="contactSection__address__info"> 010101101 </p>
                 <a class="contactSection__address__info" href="mailto:info@webify.io"> info@webify.io </a>
     </address>
-  </section>
+  </div>
   </section>
   <footer class="footer" id="footerSection">
     <p class = "footer__info">Webify 2017</p>

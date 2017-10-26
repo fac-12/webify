@@ -172,17 +172,18 @@ font-family: "Josefin Slab", Georgia, serif;
   margin: 0 auto;
 
 }
-.contactSection__form__input,.contactSection__form__textArea
-{
+.contactSection__form__input,.contactSection__form__textArea,
+.contactSection__form__button{
   width: 16.25rem;
 height: 1.5rem;
 border-radius: 3px;
 }
 
-.contactSection__form__input:last-child {
+.contactSection__form__button {
   color: white;
   background-color: black;
   border-color: black;
+  margin-top:2%;
 
 }
 
