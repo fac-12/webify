@@ -36,7 +36,6 @@ body {
 }
 
 .header {
-  /*background-color: rgb(51, 47, 89);*/
   background-image: url("./assets/origami.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -82,6 +81,7 @@ font-weight: bold;
   background-color: white;
   padding-left: 5%;
   text-align: center;
+  padding-top: 3%;
   width: 90%;
 
 }
