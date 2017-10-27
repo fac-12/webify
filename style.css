@@ -82,8 +82,9 @@ body {
   background-color: white;
   padding-left: 5%;
   text-align: center;
-  padding-top: 3%;
+  padding-top: 12%;
   width: 90%;
+  font-size: 1.2rem;
 }
 
 .about__title {
@@ -116,6 +117,7 @@ body {
 .team {
   background-color: rgb(201, 252, 246);
   padding: 3%;
+  padding-top: 12%;
 }
 
 .team__heading {
@@ -147,6 +149,7 @@ body {
 .contactSection {
   background-color: white);
   padding-bottom: 10%;
+  padding-top: 6%;
 }
 
 .contactSection__heading {
@@ -217,6 +220,9 @@ body {
     padding-left: 0.50rem;
     padding-right: 1.2rem;
   }
+  .about {
+    padding-top: 2.5%;
+  }
   .about__iconContainer {
     flex-direction: row;
   }
@@ -227,8 +233,12 @@ body {
     font-size: 2rem;
     padding-top: 5%;
   }
+  .team {
+    padding: 3%;
+  }
   .contactSection {
     padding-bottom: 0%;
+    padding-top: 0%;
   }
   .contactSection__heading {
     padding-top: 2%;
