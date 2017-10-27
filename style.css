@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial;
   font-size: 1.2rem;
 }
 
@@ -134,7 +134,7 @@ body {
 }
 
 .team__member {
-  /*padding: 1%;*/
+  padding-bottom: 2%;
   width: 17rem;
 }
 
